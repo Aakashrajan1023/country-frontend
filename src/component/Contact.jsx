@@ -34,7 +34,7 @@ const Contact = () => {
      
 
     try {
-      const response = await axios.post("http://localhost:3000/email", {
+      const response = await axios.post("https://country-backend-3q47.onrender.com/email", {
         type: formData.type,
         name: formData.name,
         phone: formData.phone,
