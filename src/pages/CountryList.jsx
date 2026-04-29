@@ -18,6 +18,7 @@ export const CountryList = () => {
   return (
     <>
       <h1>Countries</h1>
+      <Link to={"/contact"}>Conatct</Link>
       {
         loading ? <p>Loading....</p> :
          <div className="card_container">
